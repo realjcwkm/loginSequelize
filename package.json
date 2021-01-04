@@ -1,0 +1,30 @@
+{
+  "name": "loginSequelize",
+  "version": "1.0.0",
+  "description": "Projeto teste usando o sequelize",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realjcwkm/loginSequelize.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/realjcwkm/loginSequelize/issues"
+  },
+  "homepage": "https://github.com/realjcwkm/loginSequelize#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "sequelize-cli": "^6.2.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5"
+  }
+}
